@@ -2,6 +2,8 @@
 
 Una aplicación de escritorio para planificar horarios académicos de la Escuela Superior Politécnica del Litoral (ESPOL), con funcionalidad de extracción automática de datos del portal académico.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c732a21-883a-43e5-aced-4c8191887bf9" />
+
 ## Características Principales
 
 - **Extracción Automática de Datos**: Recopila información directamente del portal académico ESPOL con manejo integrado de CAPTCHA
@@ -51,3 +53,4 @@ La aplicación implementa un sistema híbrido para CAPTCHA:
 
 - **Seguridad de Credenciales**: Las credenciales no se almacenan permanentemente, solo se utilizan durante la sesión activa
 - **Visibilidad del Navegador**: Durante la extracción, el navegador permanece visible para interacción del usuario
+
