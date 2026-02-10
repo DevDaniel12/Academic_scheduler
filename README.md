@@ -15,12 +15,13 @@ Una aplicación de escritorio para planificar horarios académicos de la Escuela
 
 ### Navegador Requerido
 - Mozilla Firefox (necesario para Selenium WebDriver)
+https://www.firefox.com/es-ES/
 
 ## Guía de Uso
 
 ### Extracción de Datos
-- **Extracción Automática**: Seleccionar "Scraping ESPOL" e ingresar credenciales del portal académico
-- **Carga Manual**: Utilizar "Cargar CSV" para importar datos previamente descargados
+- **Extracción Automática**: Seleccionar "Scraping Académico" e ingresar credenciales del portal académico
+- **Carga Manual**: Utilizar "Cargar CSV" para importar datos previamente scrapeados con el programa
 
 ### Construcción de Horarios
 - Seleccionar celdas en la cuadrícula para ver opciones disponibles
@@ -40,7 +41,6 @@ Una aplicación de escritorio para planificar horarios académicos de la Escuela
 - **Exportación Visual**: Guarda horarios completos como imágenes con la función "Capturar"
 
 ### Manejo de CAPTCHA
-La aplicación implementa un sistema híbrido para CAPTCHA:
 1. Inicia automáticamente el navegador para resolución manual por el usuario
 2. Espera confirmación de resolución completa
 3. Continúa con la extracción de datos de manera automatizada
@@ -51,6 +51,7 @@ La aplicación implementa un sistema híbrido para CAPTCHA:
 
 ## Consideraciones Importantes
 
-- **Seguridad de Credenciales**: Las credenciales no se almacenan permanentemente, solo se utilizan durante la sesión activa
-- **Visibilidad del Navegador**: Durante la extracción, el navegador permanece visible para interacción del usuario
+- **Seguridad de Credenciales**: Las credenciales no se almacenan permanentemente ni se envían a la nube, solo se utilizan durante la sesión activa del programa
+- **Visibilidad del Navegador**: Durante la extracción, el navegador permanece visible para interacción del usuario, pero no debe interacturar con el mismo
+
 
